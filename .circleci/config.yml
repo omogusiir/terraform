@@ -1,5 +1,5 @@
 jobs:
-    tflint:
+  tflint:
     machine: true
     steps:
       - checkout
