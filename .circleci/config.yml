@@ -38,7 +38,7 @@ workflows:
   version: 2
   django:
     jobs:
-      - build
+      - tflint
       - test
       - integration
       - prod:
